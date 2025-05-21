@@ -1,0 +1,199 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6e294;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 300px; 
+    border-radius: 4px;
+}
+
+.navbar {
+    background-color: #524c05b4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color:#524c05b4;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn.add {
+    background-color: #27ae60;
+    color: white;
+}
+
+.btn.delete {
+    background-color: #e74c3c;
+    color: white;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #524c05b4;
+    color: white;
+    border-top: 1px solid #ccc;
+}
+/*page ajouter un livre*/
+
+.form-container {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fffef2;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.form-container label {
+    margin-top: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.form-container button:hover {
+    background-color: #246b46;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    color: #444;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-bottom: 4px solid #ccc;
+    border-radius: 0 0 10px 10px;
+}
