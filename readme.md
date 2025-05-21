@@ -1,4 +1,10 @@
 
+TP 1
+Système web PHP orienté objet avec une base de données MySQL
+Faïza djahnine 
+Cours Web avancé -Professeur: Marcos Sanches
+COLLÈGE DE MAISONNEUVE
+
 
 #  Projet Librairie - Web Avancé (TP1)
 
@@ -42,8 +48,8 @@ Librairie/
 │   ├── supprimer.php
 │   ├── style.css
 │   └── images/
-├── librairie.sql
-└── README.md
+├── librairie.sql # script  pour la creation de ase  de données
+└── readme.md
 
 ----
 
