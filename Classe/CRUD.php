@@ -1,9 +1,9 @@
 <?php
 class CRUD extends PDO {
-
-    public function __construct() {
-        parent::__construct('mysql:host=localhost;dbname=librairie;charset=utf8', 'root', '');
+    public function __construct($dsn, $username, $password) {
+        parent::__construct($dsn, $username, $password);
     }
+    
 
     public function select($table, $field = 'id', $order='asc'){
         $sql = "SELECT * FROM $table ORDER BY $field $order";
