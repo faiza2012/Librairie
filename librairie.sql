@@ -1,7 +1,3 @@
--- CRÉATION DE LA BASE
-DROP DATABASE IF EXISTS librairie;
-CREATE DATABASE librairie CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE librairie;
 
 -- TABLE CATEGORIE
 CREATE TABLE categorie (
